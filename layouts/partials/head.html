@@ -7,11 +7,11 @@
 <link rel="icon" type="image/png" sizes="16x16" href='{{ absURL (printf "%sfavicon-16x16.png" $iconsPath) }}'>
 <link rel="manifest" href='{{ absURL (printf "%ssite.webmanifest" $iconsPath) }}'>
 <link rel="mask-icon" href='{{ absURL (printf "%ssafari-pinned-tab.svg" $iconsPath) }}'  color="#004750">
-<link rel="shortcut icon" href='{{ absURL (printf "%sfavicon.ico" $iconsPath) }}'>
 <link rel="stylesheet"
   href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/ir-black.min.css">
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
 <script>hljs.highlightAll();</script>
+<link rel="shortcut icon" type="image/jpg" href="/site/icon.svg"/>
 <meta name="msapplication-config" content='{{ absURL (printf "%sbrowserconfig.xml" $iconsPath) }}'>
 {{- $t := .Title }}
 {{- $s := site.Title }}
